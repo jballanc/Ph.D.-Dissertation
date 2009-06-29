@@ -47,14 +47,6 @@ OUTPUT .steventhesis_num.lof
 OUTPUT introduction.aux
 INPUT introduction.tex
 INPUT introduction.tex
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/cmextra/cmex7.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/cmextra/cmex7.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msam10.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msam7.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msam5.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msbm10.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msbm7.tfm
-INPUT /opt/local/share/texmf-dist/fonts/tfm/ams/symbols/msbm5.tfm
 INPUT .steventhesis_num.aux
 INPUT introduction.aux
 INPUT introduction.aux
