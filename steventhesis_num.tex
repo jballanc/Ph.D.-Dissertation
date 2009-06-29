@@ -1,0 +1,277 @@
+%% stevensthesis_num.tex
+%% Copyright 2008 B. E. Arnett
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is Barbara Arnett.
+%
+% This work consists of the files stevensthesis_num.tex 
+% and the derived file pgnumchapter_nums.sty.
+
+%
+% This is the template for dissertation / thesis submission for the
+% Stevens Institute of Technology.  
+%
+% There are fields in titlepg.sty that must be updated with your
+% own information.  The file pgnumchapter.sty must be included but  
+% does not need to be updated, unless you want to change the 
+% layout of your pages and chapters.  
+%
+% Both dissertations and master thesis can created from this program.  
+% These fields should be changed:
+%    {thesistype} should be either "dissertation" or "thesis" 
+%    {thesisdegree} should be either "doctor of philosophy" for dissertation or
+%            "Master of Engineering - Electrical Engineering" 
+%            "Master of Science - Computer Science"   or the correct degree designation.
+%
+%
+% Please see the formatting instructions on the library website at
+%        http://www.stevens.edu/services/thesis.html
+%
+% copyright 2007, Barbara Arnett, web services librarian, stevens institute of technology
+% any comments or corrections can be sent to barnett@stevens.edu
+%
+% update January 2009 - updated font size to 12p and added subsections to show up in the 
+% table of contents 
+%
+%
+%
+
+\documentclass[12pt]{report}
+\usepackage {fancyhdr}
+\usepackage{graphicx, amssymb}
+\usepackage{setspace}
+\usepackage{pgnumchapter_nums}
+\usepackage{titlepg}
+%              this is for the list of symbols page, if desired
+\def\listofsymbols{\input{symbols} \clearpage}
+\def\addsymbol #1: #2#3{$#1$\> \parbox{5in}{#2 \dotfill  \pageref{#3}}\\}
+\def\newnot#1{\label{#1}}
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{helv \thepage}
+
+\doublespacing
+
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0  pt}          %this prints a line under the header
+\renewcommand{\footrulewidth}{0  pt}            %this prints a line under the footer
+
+
+\renewcommand{\contentsname}{\normalsize{Table of Contents}}
+\renewcommand{\listfigurename}{\normalsize{List of Figures}}
+\renewcommand{\listtablename}{\normalsize{List of Tables}}
+\renewcommand{\bibname}{\normalsize{Bibliography}}
+\renewcommand{\indexname}{\normalsize{Index}}
+\renewcommand{\thesubsection}{\thesection\arabic{subsection}}
+
+
+
+
+
+%%
+
+%%
+%\renewcommand{\section}{\normalsize{\section}
+%\newcommand\figurename{Figure}
+%\newcommand\tablename{Table}
+%\newcommand\partname{Part}
+%\newcommand\chaptername{Chapter}
+%\newcommand\appendixname{Appendix}
+%\newcommand\abstractname{Abstract}
+
+
+% you may need to change the pdfpagewidth to pagewidth
+% and pdfpageheight to pageheight
+
+% if not using pdflatex to produce output, you may need to change to pagewidth and pageheight variables.
+%\pagewidth 8.5in
+%\pageheight 11in 
+\pdfpagewidth 8.5in
+\pdfpageheight 11in 
+%
+\setlength{\textheight}{8.5in} 
+\setlength{\oddsidemargin}{0.5in}  
+\setlength{\evensidemargin}{0.5in} 
+\setlength{\textwidth}{6.0in}
+\setlength{\topmargin}{0.0in} 
+\setlength{\headheight}{0.25in}
+\setlength{\headwidth}{6.0in}
+\setlength{\headsep}{0.25in}
+\setlength{\parindent}{12mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%%  This begins the frontmatter of the document, everything preceding the body 
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\pagenumbering{roman}
+
+\thesistitlepage
+
+\thesiscopyrightpage              
+
+\thesisabstract
+
+\thesisdedicationpage
+
+\thesisacknowledgements
+
+\tableofcontents
+
+%\listoftables
+
+\makeatletter \renewcommand{\@dotsep}{10000} \makeatother    %removes dots before page numbers
+
+\listoffigures
+
+%%%
+%    this produces the list of symbols.  the dots have been left in to show how it would look with dots.  The formatting of the table of contents, list of symbols 
+%    and list of figures is up to the author, but they should all match and be similar in format.    The list of symbols is optional, it can be un-commented
+%    out if desired.
+%%% 
+%   \newpage
+%   \chapter*\normalsize\textbf{List of Symbols\hfill} %   \addcontentsline{toc}{chapter}{List of Symbols}
+%   \listofsymbols
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%%  This begins the body of the document
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\pagenumbering{arabic}
+
+
+\include{introduction}
+
+\chapter{This is the first Chapter}
+XML is valuable blah blah\\
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+\subsection{The Problem Statement}    
+
+Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+Here, if the dimensions of A  \newnot{symbol:A}, B  \newnot{symbol:B}, and C  \newnot{symbol:C} are nxn, nxm and lxn  \newnot{symbol:nml} respectively; then n-vector x\newnot{symbol:x} denotes the system state; m-vector u denotes system control; and the l-vector y denotes the system output. ... 
+
+Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+%\begin{figure}%
+%\includegraphics[height=2.5in, width=2.2in]{graph1.jpg}
+%\caption{Enjoyment and fun}
+%\end{figure}
+
+Vestibulum ut urna eu turpis accumsan hendrerit. Mauris in mi sed eros auctor blandit. Nullam sit amet mauris vel eros aliquam pretium. Cras fermentum tortor. Sed egestas vulputate diam. Aenean sem dui, tincidunt a, ullamcorper eget, pharetra ac, tortor. In at sem vel elit bibendum convallis. Aenean ut enim vel leo malesuada dapibus. Etiam odio dolor, sollicitudin a, nonummy nec, tristique et, augue. Morbi ipsum. Aliquam venenatis. Proin orci. Duis sed quam eget turpis interdum feugiat.
+
+\subsection{Hypothesis}  
+
+Vivamus nec velit. Cras placerat tortor a nisi. Etiam vel risus. Donec tempus metus fermentum sapien. Duis nisi. Mauris felis purus, lacinia vitae, vestibulum at, vehicula sit amet, neque. Suspendisse potenti. Integer semper. Suspendisse potenti. Donec ornare. Vivamus posuere nunc laoreet nulla. Etiam porta venenatis elit.
+
+Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+Nunc mollis, nibh eu volutpat eleifend, libero dui rhoncus lacus, a tristique magna nisl sit amet est. Integer accumsan mattis mi. Ut bibendum, eros non tempus lobortis, odio ante porta nulla, sed convallis velit nisi eu sem. In dictum erat non leo. Sed porta iaculis purus. Donec in leo. Donec neque. Proin fringilla. Aenean a lacus. Duis velit arcu, luctus et, condimentum quis, vehicula ut, purus. Cras vel nibh id dui auctor adipiscing. Morbi tempor mattis elit. Nulla rhoncus pretium enim.
+
+Vestibulum ut urna eu turpis accumsan hendrerit. Mauris in mi sed eros auctor blandit. Nullam sit amet mauris vel eros aliquam pretium. Cras fermentum tortor. Sed egestas vulputate diam. Aenean sem dui, tincidunt a, ullamcorper eget, pharetra ac, tortor. In at sem vel elit bibendum convallis. Aenean ut enim vel leo malesuada dapibus. Etiam odio dolor, sollicitudin a, nonummy nec, tristique et, augue. Morbi ipsum. Aliquam venenatis. Proin orci. Duis sed quam eget turpis interdum feugiat.
+
+Vivamus nec velit. Cras placerat tortor a nisi. Etiam vel risus. Donec tempus metus fermentum sapien. Duis nisi. Mauris felis purus, lacinia vitae, vestibulum at, vehicula sit amet, neque. Suspendisse potenti. Integer semper. Suspendisse potenti. Donec ornare. Vivamus posuere nunc laoreet nulla. Etiam porta venenatis elit.
+
+
+\chapter{Second lala Chapter}
+XML is great:\\
+You can use XML for:\
+\line(1,0){200}
+\vspace{8 mm}\
+
+Style sheets plus XML = great libraries
+
+This Report was produced by LaTeX\footnote {\LaTeX\ is a fun typesetting program.} specifically by Barbara Arnett.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+%\begin{figure}[htp]
+%\centering
+%\includegraphics{erptsqfit}
+%
+%\caption{Transverse momentum distributions}\label{fig:erptsqfit}
+%\end{figure}
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+\chapter{Third dede Chapter}
+XML is also fun for other reasons.
+You can use XML for:\
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+\subsection{Further Analysis}  
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+%this subsection heading below will not show up in the table of contents.
+\subsection*\normalsize\emph{The Focus Group} 
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.   
+
+%%\caption{Behavior of dollars}
+%\end{figure}
+
+Graphics that are oriented in a landscape position must be done in a manner that retains the page numbering in the upper right hand corner, as shown above.  
+
+Nunc mollis, nibh eu volutpat eleifend, libero dui rhoncus lacus, a tristique magna nisl sit amet est. Integer accumsan mattis mi. Ut bibendum, eros non tempus lobortis, odio ante porta nulla, sed convallis velit nisi eu sem. In dictum erat non leo. Sed porta iaculis purus. Donec in leo. Donec neque. Proin fringilla. Aenean a lacus. Duis velit arcu, luctus et, condimentum quis, vehicula ut, purus. Cras vel nibh id dui auctor adipiscing. Morbi tempor mattis elit. Nulla rhoncus pretium enim.
+
+
+\chapter{Recommendations}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+\subsection{The Focus Group}    
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+\chapter{Summary and Conclusion}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+
+\chapter{Appendix A}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec quis sem non dui egestas bibendum. Curabitur porttitor luctus mi. Aenean malesuada turpis. Suspendisse potenti. Vestibulum fringilla vulputate velit. Nam at ante. Integer augue dolor, aliquam eu, euismod non, egestas in, ipsum. Cras viverra velit at justo. Donec neque. Praesent nunc nulla, lacinia at, rhoncus nec, fermentum et, massa. Morbi augue purus, aliquet in, mattis ac, viverra eget, justo. Sed pharetra. Proin sed eros non urna dignissim mollis. Nullam orci urna, convallis posuere, suscipit ultrices, tempus id, ligula. Maecenas nec velit vel pede viverra rutrum. Duis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In hac habitasse platea dictumst. Donec ac augue. Etiam congue dignissim neque.
+
+Nullam a lectus. Nam quis justo at risus cursus porttitor. Nulla a magna. Fusce eget metus nec dolor laoreet placerat. Vestibulum sodales. Fusce arcu libero, dignissim ultricies, interdum ac, hendrerit nec, lectus. Fusce posuere. In turpis pede, tincidunt nec, suscipit vitae, elementum at, orci. Maecenas at urna. Nam fringilla, odio eget feugiat tempus, augue mauris pretium metus, elementum luctus diam nisi ac pede. Aliquam rhoncus arcu ac lectus. Curabitur vitae justo quis urna commodo bibendum. Praesent nunc ipsum, ornare sed, aliquam a, posuere in, ipsum. Nam sagittis, tellus ac eleifend tincidunt, magna magna viverra mauris, sed eleifend neque est sit amet eros. Nunc in diam. Nunc dictum lacus eu dolor.
+
+
+% The bibliography would be contained below.  The formatting for the bibliography is not provided here.  Formatting for references can be in the writing style 
+% set by the advisor.  Common styles are APA, MLA and Chicago style. 
+\chapter{References}
+
+%\bibliography{animal}
+
+\thesisvita
+
+\end{document}
+ 

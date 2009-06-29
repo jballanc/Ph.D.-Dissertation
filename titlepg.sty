@@ -1,0 +1,223 @@
+% 
+%       All the information in the fields below should be changed for the thesis/dissertation 
+%       The fields here are used with fake information only as a guide.  You may add or delete
+%       fields as needed.  The Advisory Committee varies in size, so add members as needed. 
+%
+\newcommand{\thesistitle}{A Study of Life as an Energetic Process}
+\newcommand{\thesisyear}{2009}
+\newcommand{\thesisname}{Joshua Ballanco}
+\newcommand{\thesischairadvisor}{Marc Mansfield}    % this name prints on the title page as chairman and the abstract page as advisor
+\newcommand{\committeenameA}{A. K. Ganguly}
+\newcommand{\committeenameB}{Knut Stamnes}
+\newcommand{\committeenameC}{Nicholas Murgolo}
+\newcommand{\thesisdepartment}{Chemistry, Chemical Biology, and Biomedical Engineering}
+\newcommand{\thesisdate}{Sept. 18, 2009}
+\newcommand{\thesistype}{dissertation}
+\newcommand{\thesisdegree}{Doctor of Philosophy}
+\newcommand{\thesissigline}[1]{%
+  \leftline{\hbox to 2.5in{}\hrulefill}
+  \endgraf
+  \vspace*{-18pt}
+  \leftline{\hbox to 2.53in{}{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%     Thesis / Dissertation title page
+%
+%     This template is set up initially for dissertations.  The title page will have
+%     some modifications to it for a master thesis.  Please read the comments 
+%     below
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\thesistitlepage}{
+    \thispagestyle{empty}
+    \begin{center}
+    \begin{spacing}{2}
+      \MakeUppercase {\thesistitle} \\
+       by \\
+       \thesisname \\
+       A \MakeUppercase {\thesistype} \\[3mm]
+     \end{spacing}
+     \begin{spacing}{1}
+       Submitted to the Faculty of the Stevens Institute of Technology \\ 
+      in partial fulfillment of the requirements for the degree of \\[3mm]
+      \end{spacing}
+      \begin{spacing}{2}
+    \MakeUppercase {\thesisdegree} \\
+    \vspace{20mm}
+     \end{spacing}
+%       \strut \vfill
+  \mbox{ }  \hfill \begin{minipage}{80mm}
+                       \begin{spacing}{1}
+                   
+
+\noindent \rule{3.2in}{0.1mm}
+\thesisname, Candidate\\[3mm]
+\underline{ADVISORY COMMITTEE}\\[3mm]
+\noindent \rule{3.2in}{0.1mm}\\[-1.3mm]
+% for master thesis, change Chairman to Advisor
+{\thesischairadvisor}, Chairman  \hfill{Date}\\[2mm]
+{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+% for master thesis, add Reader after committeenameA
+%
+{\committeenameA}        \hfill{Date}\\[2mm]
+%
+%  for master thesis, remove / comment out the following six lines
+{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\committeenameB}  \hfill{Date}\\[2mm]
+{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\committeenameC}  \hfill{Date}\\[2mm]
+                 	\end{spacing}
+				   \end{minipage}
+     \vfill \strut
+  \begin{spacing}{1}
+   \MakeUppercase {Stevens Institute of Technology}\\
+   Castle Point on Hudson \\
+  Hoboken, NJ 07030 \\
+   \thesisyear
+  \end{spacing}
+    \end{center}
+%   \vfill \strut
+    \newpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%     Copyright Page 
+%
+%     The copyright page is optional
+%  
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\thesiscopyrightpage}{
+     \thispagestyle{empty}      %no page number on the copyright page
+    \strut \vfill
+    \vspace*{7.2in}
+   \begin{center}
+        \textcopyright  Copyright \thesisyear\  \thesisname 
+    \end{center}
+    \vfill \strut
+    \newpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%     Abstract
+%
+%     The abstract must be 350 words or less
+%  
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\newcommand{\thesisabstract}{
+\begin{center}
+\MakeUppercase{\thesistitle} \\
+ABSTRACT \\
+\end{center}
+It is my thesis that life can be modeled as a thermodynamic system. Specifically, it is my goal to use this approach to understanding life in order to investigate evolution as an energy minimization problem. In this sense, ecological niches represent local energy minima, selection criteria are nothing more than potential energy gradients, and extinction is the rate of change of the energy landscape exceeding the kinetics of adaptation. This idea is derived from the observation that life is, at its most fundamental level, nothing more than an elaborate collection of chemical reaction. Taken individually, each of these reactions is governed by the laws of thermodynamics.
+
+In this work I present two model systems which are inspired by this hypothesis. In the first model, I will look at the directionality of nucleotide polymerases, all of which synthesize new nucleotide polymers in a 5' to 3' direction. This phenomenon could be the consequence of a very early founder effect. On the other hand, it could be that this directionality evolved due to an inherent advantage. I would propose that the energetics of nucleotide synthesis provide a clue as to what that advantage might have been. In the second model, I will look at \emph{E. coli} RNA polymerase and its recognition of promoter sequences. In this process, RNA Polymerase must both bind tightly enough to recognize a specific sequence, but also release from the promoter in order to initiate transcription. If evolution is driven by thermodynamic constraints, it would be expected that RNA Polymerase has optimized the balance of these forces.\\
+
+%\begin{flushright}
+%Barbara Arnett
+%\end{flushright}
+
+%\\[6mm]
+% make the author name flush left
+\begin{flushleft}
+Author: \thesisname \\
+Advisor: \thesischairadvisor \\
+Date: \thesisdate \\
+Department: \thesisdepartment \\
+Degree: \thesisdegree \\
+\end{flushleft}
+    \newpage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%     Dedication Page
+%
+%     This section is optional
+%  
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\thesisdedicationpage}{
+    \strut \vspace{2in}
+   \begin{center}
+       This thesis is dedicated to my wife.
+    \end{center}
+    \vfill \strut
+    \newpage}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+%     Acknowledgements
+%
+%     This section is optional
+%  
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\thesisacknowledgements}{
+
+\noindent \textbf{Acknowledgements} \\[6mm]
+I would like to acknowledge Marc Mansfield for the years of guidance, inspiration, and instruction that he so graciously provided during both my undergraduate and graduate education. I would also like to acknowledge Francis Jones for making this research possible, for the encouragement that he provided me as an undergraduate and the opportunity he made available to me as a graduate. I would also like to thank the members of my committee, A. K. Ganguly, Knut Stamnes, and Nicholas Murgolo, for their input and invaluable insight. Thanks also go out to the faculty and staff of the Department of Chemistry, Chemical Biology, and Biomedical Engineering for all the help they have provided through the years, and most especially to Mary Newell without whom I would not have made it past the first day of graduate school. Finally, I must humbly admit that the thesis presented here would not exist if it were not for the constant support and encouragement of my beautiful wife Ceren \"Ornek-Ballanco.
+    \vfill \strut
+    \newpage}
+
+\newcommand{\thesisvita}{
+\newpage
+
+\noindent \textbf{Vita} \\
+%  insert Vita information below
+%  the format of the vita is up to the individual.  Some people include photos or personal information
+%  such as marital status, birth place or include publications.
+%  There is no set format for the vita, so reformat this part as you wish.     
+%  
+\begin{center}
+\textbf{\thesisname}
+\end{center}
+\begin{spacing}{1}
+\begin{tabbing}
+\textbf{Address}  \hspace{20mm}  \= 125 Main Street, Hoboken, NJ 07030\= \\[3mm]
+\textbf{Place of birth}  \> Hoboken, NJ \\[3mm]
+\textbf{Date of birth}  \> July 21, 1980 \\[3mm]
+
+\textbf{Education}  \> Stevens Institute of Technology, Hoboken, NJ \\
+\> Doctoral Candidate in Computer Science \\
+\>  expected date of graduation, May 2008 \\[3mm]
+
+\textbf{Industrial} \> Smithers Corporation, New York, NY \\
+\textbf{Experience} \> Production Engineer (January 2004 - present)\\
+\> Worked with the production department to implement plans to \\
+\> streamline production processes. Supervised production team, \\
+\> and saved the corporation \$3 million in 2006.\\  [3mm]
+
+\> Systems Analyst  (March 2001 - January 2004)\\
+\> Managed \$3 million project to create super software product. \\
+\> Super software sold to businesses for \$ 3 million. \\[3mm]
+
+\textbf{Publications}  \> Smith, W. \& Jones, A. (2007).  Results of scientific testing: An Analysis.\\ 
+\> \emph{Journal of Super Testing, Vol 42,}  No. 4 \\
+\> Smith, W. \& Thompson B. (2006). Results of the big experiment\\
+\> \emph{Journal of Experimentation, Vol 20,} No. 5 \\[3mm]
+
+\textbf{Honors}  \> Stevens Merit Award for Superior Workmanship, July, 2006\\ 
+\> Innovator's Award, December, 2005 \\[3mm]
+
+
+
+\end{tabbing}
+\end{spacing}
+
+
+
+Other biographical data of interest
+
+    \vfill \strut
+    \newpage}
+
+
