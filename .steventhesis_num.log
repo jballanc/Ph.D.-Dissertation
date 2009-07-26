@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=.steventhesis_num 2009.6.29)  29 JUN 2009 00:12
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=.steventhesis_num 2009.6.30)  30 JUN 2009 19:47
 entering extended mode
 **&.steventhesis_num "./.steventhesis_num.tex"
 (./.steventhesis_num.tex
@@ -108,16 +108,13 @@ Chapter 1.
 
 
 ]
-Chapter 2.
-[2
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 
  []
 
-[3] (./.steventhesis_num.aux (./introduction.aux)) ) 
+[2
+
+] (./.steventhesis_num.aux (./introduction.aux)) ) 
 Here is how much of TeX's memory you used:
  387 strings out of 93064
  5438 string characters out of 1153128
@@ -125,14 +122,14 @@ Here is how much of TeX's memory you used:
  4676 multiletter control sequences out of 10000+50000
  9554 words of font info for 36 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 20i,11n,18p,920b,243s stack positions out of 5000i,500n,6000p,200000b,5000s
-</opt/local/share/texmf-dis
-t/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fonts/type1/bl
-uesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.p
-fb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb>
-Output written on .steventhesis_num.pdf (11 pages, 36560 bytes).
+ 20i,10n,18p,919b,241s stack positions out of 5000i,500n,6000p,200000b,5000s
+</opt/local/share/texmf-dist/
+fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fonts/type1/blue
+sky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb
+></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on .steventhesis_num.pdf (10 pages, 35665 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
