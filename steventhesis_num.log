@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.6.10)  5 SEP 2009 18:39
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.6.10)  9 SEP 2009 12:32
 entering extended mode
  file:line:error style messages enabled.
 **steventhesis_num.tex
@@ -218,16 +218,16 @@ Chapter 1.
 
  (./model_design.tex
 Chapter 2.
-) [4
+[4
 
 
 
-]
+]) [5]
 \openout2 = `experimental_results.aux'.
 
  (./experimental_results.tex
 Chapter 3.
-) [5
+) [6
 
 
 
@@ -291,26 +291,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--182
 [4
 
 ] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux)
-(./experimental_results.aux) (./code_listing.aux)) ) 
+(./experimental_results.aux) (./code_listing.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2760 strings out of 94073
- 37189 string characters out of 1164875
+ 2761 strings out of 94073
+ 37206 string characters out of 1164875
  118360 words of memory out of 1500000
- 6000 multiletter control sequences out of 10000+50000
+ 6001 multiletter control sequences out of 10000+50000
  9712 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  29i,11n,43p,1070b,1589s stack positions out of 5000i,500n,6000p,200000b,5000s
-</opt/local/share/texmf-dis
-t/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/share/texmf-dist/fonts/type1/bl
-uesky/cm/cmitt10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr12.
-pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/sh
-are/texmf-dist/fonts/type1/bluesky/cm/cmsltt10.pfb></opt/local/share/texmf-dist
-/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-dist/fonts/type1/blu
-esky/cm/cmsy8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmtt8.pfb
->
-Output written on steventhesis_num.pdf (16 pages, 81604 bytes).
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmitt10.pfb></opt/local/share/texmf-dist/
+fonts/type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/blues
+ky/cm/cmr8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsltt10.pfb
+></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/sha
+re/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb></opt/local/share/texmf-dist/fon
+ts/type1/bluesky/cm/cmtt8.pfb>
+Output written on steventhesis_num.pdf (17 pages, 84071 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
