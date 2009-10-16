@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.6.10)  1 OCT 2009 04:39
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.6.10)  15 OCT 2009 04:02
 entering extended mode
  file:line:error style messages enabled.
 **steventhesis_num.tex
@@ -115,7 +115,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 61.
 
 (./steventhesis_num.aux (./introduction.aux) (./model_design.aux)
-(./code_listing.aux))
+(./experimental_results.aux) (./code_listing.aux))
 \openout1 = `steventhesis_num.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -223,6 +223,39 @@ Chapter 2.
 
 
 ] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]) [20]
+\openout2 = `experimental_results.aux'.
+
+
+(./experimental_results.tex
+Chapter 3.
+[21
+
+
+
+] <scale_length.png, id=94, 1295.0784pt x 780.0342pt>
+File: scale_length.png Graphic file (type png)
+
+<use scale_length.png> [22 <./scale_length.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:scale_num' on page 23 undefined on input line 48.
+
+
+[23] <temp_incr_num.png, id=101, 1295.0784pt x 780.0342pt>
+File: temp_incr_num.png Graphic file (type png)
+
+<use temp_incr_num.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<temp_incr_rate.png, id=102, 1295.0784pt x 780.0342pt>
+File: temp_incr_rate.png Graphic file (type png)
+
+<use temp_incr_rate.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]) [25 <./temp_incr_num.png (PNG copy)>] [26 <./temp_incr_rate.png (PNG copy
+)>]
 \openout2 = `code_listing.aux'.
 
  (./code_listing.tex
@@ -255,27 +288,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--183
 [15
 
 ] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux)
-(./code_listing.aux)) ) 
+(./experimental_results.aux) (./code_listing.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2890 strings out of 94073
- 39303 string characters out of 1164875
- 119080 words of memory out of 1500000
- 6117 multiletter control sequences out of 10000+50000
+ 2923 strings out of 94073
+ 40001 string characters out of 1164875
+ 119679 words of memory out of 1500000
+ 6139 multiletter control sequences out of 10000+50000
  9722 words of font info for 37 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  33i,11n,43p,1389b,1573s stack positions out of 5000i,500n,6000p,200000b,5000s
-</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx
-12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></opt/loc
-al/share/texmf-dist/fonts/type1/bluesky/cm/cmmi6.pfb></opt/local/share/texmf-di
-st/fonts/type1/bluesky/cm/cmmi8.pfb></opt/local/share/texmf-dist/fonts/type1/bl
-uesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb
-></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/share
-/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-dist/font
-s/type1/bluesky/cm/cmsy8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/c
-m/cmti12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmtt8.pfb>
-Output written on steventhesis_num.pdf (40 pages, 155267 bytes).
+</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></opt/local/share/texmf-dist/f
+onts/type1/bluesky/cm/cmmi6.pfb></opt/local/share/texmf-dist/fonts/type1/bluesk
+y/cm/cmmi8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr12.pfb></
+opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb></opt/local/share/te
+xmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/share/texmf-dist/fonts/typ
+e1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cm
+sy8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></opt/lo
+cal/share/texmf-dist/fonts/type1/bluesky/cm/cmtt8.pfb>
+Output written on steventhesis_num.pdf (46 pages, 1063169 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,3 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf {Effects of Genome Length on Polymerase Rate Evolution.} The average polymerase rate for the entire simulation population is plotted against simulation time steps (each unit on the abscissa is equivalent to 100 simulation time steps). The organisms each had genomes of length 10, 100, 1000, or 10000.}}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Growth of model organisms at various temperatures.} The population size at each time point is plotted for the forward polymerizing organisms (closed circles) and reverse polymerizing organisms (open cicles). The simulation time steps are plotted on the abscissa (each unit represents 5 simulation time steps).}}{25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textbf {Evolution of polymerase rate for exponentially growing model organisms at various temperatures.} The averages of the polymerase rates for all the model organisms in each environment is plotted for the forward polymerizing organisms (closed circles) and reverse polymerizing organisms (open cicles). The simulation time steps are plotted on the abscissa (each unit represents 5 simulation time steps).}}{26}
+\addvspace {10\p@ }
