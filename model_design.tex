@@ -74,12 +74,20 @@ Furthermore, whereas a $5'\to3'$ polymerase will be constantly drawing in new ac
 
 Finally, each time a new nucleotide is added by a polymerase, there is a risk that the nucleotide will be of the wrong sort. The primary driving force discriminating properly base-paired nucleotides from improperly paired nucleotides is the formation of hydrogen bonds between the incoming nucleotide and the corresponding nitrogenous base of the template nucleic acid. This process can be modeled by a similar Boltzmann distribution as used for determining the probability of a nucleotide becoming deactivated, but the $\Delta G^0$ of base-pair hydrogen bond formation is approximately half that of spontaneous triphosphate hydrolysis. So, in the model the probability of an improper nucleotide addition event is calculated using $\frac{1}{2}$ the simulation temperature.
 
-Recently, research has indicated that hydrogen bond formation is not sufficient to completely explain the fidelity of correct pair formation by nucleotide polymerases. It has been suggested that polymerases also take advantage of geometric differences between proper and improper pair formation to improve their ability to discriminate. In the model, this additional factor is treated as a simple flow problem. If a polymerase is roughly represented as a cylindrical tube, the narrower the tube is the greater will be its ability to reject geometrically unfavorable nucleotide pair configurations. However, the rate of the polymerase will also be affected by the radius of the tube. If rate is taken as the flux of nucleic acid through the tube, then we end up with a simple square root relationship between the ability of the polymerase to reject based on geometry and the number of nucleotides it can add in one simulation time-step. Specifically\[
+Recently, research has indicated that hydrogen bond formation is not sufficient to completely explain the fidelity of correct pair formation by nucleotide polymerases. It has been suggested that polymerases also take advantage of geometric differences between proper and improper pair formation to improve their ability to discriminate. In the model, this additional factor is treated as a simple flow problem. If a polymerase is roughly represented as a cylindrical tube, the narrower the tube is the greater will be its ability to reject geometrically unfavorable nucleotide pair configurations. However, the rate of the polymerase will also be affected by the radius of the tube (see figure~\ref{fig:schematic} for an illustration of this concept). If rate is taken as the flux of nucleic acid through the tube, then we end up with a simple square root relationship between the ability of the polymerase to reject based on geometry and the number of nucleotides it can add in one simulation time-step. Specifically\[
 	\Gamma = \sqrt{r}
 \]
 describes the geometric discrimination and\[
 	P_{error} = K * \Gamma
 \]
 is the probability of making a mistake during each nucleotide addition event, calculated as the product of the temperature dependent Boltzmann distribution, $K$, and the geometric discrimination function, $\Gamma$.
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=\textwidth]{schematic}
+	\caption{\textbf{A schematic diagram of geometry based polymerase discrimination.} The simplistic model of geometry based discrimination, and its relationship to polymerase rate, assumes that a tighter binding polymerase will be better able to exclude incorrect nucleotides based on shape. However, being tighter binding will restrict the rate at which the polymerase can translocate along the nucleic acid.}
+	\label{fig:schematic}
+\end{figure}
+
 % section polymerase (end)
 % chapter design_of_the_polymerase_evolution_model (end)

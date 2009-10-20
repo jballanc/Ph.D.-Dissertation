@@ -47,6 +47,13 @@ Second, a set of experiments were carried out to investigate the effect of popul
 
 Figure~\ref{fig:scale_num} is a plot of the average polymerase rate of the population in each environment against the simulation time. Based on these initial experiments, it was decided that a maximum population size of 1000 with a genome length of 1000 could serve as an adequate representative of the dynamics over the range of possible values. These values were chosen because they also keep the size of the simulations reasonable with regards to the amount of computational time required to run each simulation, since the run time of the simulations scale with the population size and organisms with longer genomes require more time-steps to achieve the same number of doublings as organisms with shorter genomes.
 
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{scale_num}
+	\caption{\textbf{Effects of Environmental Carrying Capacity on Polymerase Rate Evolution.} The average polymerase rate for the entire simulation population is plotted against simulation time steps (each unit on the abscissa is equivalent to 100 simulation time steps). The organisms each had a genome length of 1000, and the environments had a maximum capacity ($N$) of 100, 1000, 10000, or 100000 organisms.}
+	\label{fig:scale_num}
+\end{figure}
+
 Finally, in order to validate the model and how reasonably it simulates the observed growth dynamics of biological organisms, a set of experiments were carried out starting with small populations of 10 organisms, as before, and following their growth at different temperatures. The first two sets of experiments were only carried out with forward polymerizing organisms. To be sure that model organisms with reverse, $3'\to5'$, polymerases had growth dynamics similar to forward polymerizing organisms, these experiments were carried out using both types of organisms. Table~\ref{tab:temp_incr} summarizes the parameters used for these experiments.
 
 \begin{table}
@@ -107,6 +114,67 @@ To understand both of these domains, two more sets of experiments were performed
 	\end{center}
 \end{table}
 
+A plot of how the polymerase rate evolved over time at each temperature is presented in figure~\ref{fig:cluster_growth_rate}. For each temperature condition, the forward rate is represented by the line with closed circles and the reverse rate is represented by the line with open circles. In addition to the way the polymerase rate evolves, it is also important to know how the organisms fared in terms of survival in the face of competition. So, the population of the forward and reverse polymerizing organisms at each temperature is presented in figure~\ref{fig:cluster_growth_num}. Again, the lines with closed circles represent the forward polymerizing organisms and the open circles represent the reverse polymerizing organisms.
 
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{cluster_growth_rate}
+	\caption{\textbf{Competitive evolution of forward and reverse polymerase rates.} The averages of the polymerase rates for all the forward polymerizing organisms (closed circles) and reverse polymerizing organisms (open circles) in each environment is plotted against simulation time. Each unit on the abscissa represents 50 simulation time-steps.}
+	\label{fig:cluster_growth_rate}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{cluster_growth_num}
+	\caption{\textbf{Competitive growth of forward and reverse polymerizing organisms.} The total population of forward polymerizing organisms (closed circles) or reverse polymerizing organisms (open circles) for each environment is plotted against simulation time. Each unit on the abscissa represents 50 simulation time-steps.}
+	\label{fig:cluster_growth_num}
+\end{figure}
+
+The final experiment consisted of seeding each environment with the maximum population for that environment. This means that each environment, with a carrying capacity of 1000, started with 500 forward polymerizing organisms and 500 reverse polymerizing organisms. Forward and reverse polymerizing organisms were equally distributed between all possible values, 1 to 10, for polymerase rate. The environments were all run at different temperatures. Table~\ref{tab:strict} summarizes the experimental conditions.
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}[c]{ c | l | l | l | c }
+			Experiment & Temp. ($t$) & Max Pop. & Genome Length & Seed organisms \\
+			\hline
+			& 0.10 & & &\\
+			& 0.15 & & &\\
+			& 0.20 & & & 500 forward\\
+			& 0.25 & & & (rates: 1-10)\\
+			& 0.30 & & &\\
+			\#24-34 & 0.35 & 1000 & 1000 & and\\
+			& 0.40 & & &\\
+			& 0.45 & & & 500 reverse\\
+			& 0.50 & & & (rates: 1-10)\\
+			& 0.55 & & &\\
+			& 0.60 & & &\\
+		\end{tabular}
+		\caption{Competitive growth in a full environment at various temperatures.}
+		\label{tab:strict}
+	\end{center}
+\end{table}
+
+A plot detailing the change in polymerase rate over time is presented in figure~\ref{fig:strict_rate} for the 0.10, 0.30, 0.40, 0.50, and 0.60 simulation temperature experiments. As in figure~\ref{fig:cluster_growth_num}, the forward values are represented with closed circles and the reverse with open circles. The number of forward and reverse polymerizing organisms in the environments at the same subset of simulation temperatures is presented in figure~\ref{fig:strict_num}. Additionally, since the primary goal of these experiments is to determine under what, if any conditions, the population of reverse polymerizing organisms drops to zero, the number of reverse polymerizing organisms at each of the simulation temperatures is presented as figure~\ref{fig:strict_num_rev}.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{strict_rate}
+	\caption{\textbf{Competitive evolution of polymerase rate for forward and reverse polymerizing organisms in a full environment.} The average of the polymerase rates for all of the forward polymerizing organisms (closed circles) and reverse polymerizing organisms (open circles) in each environment is plotted against simulation time. Each unit on the abscissa represents 50 simulation time-steps.}
+	\label{fig:strict_rate}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{strict_num}
+	\caption{\textbf{Competitive growth of forward and reverse polymerizing organisms in a full environment.} The total population of forward polymerizing organisms and reverse polymerizing organisms in each environment is plotted against simulation time. Each unit on the abscissa represents 50 simulation time-steps.}
+	\label{fig:strict_num}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=\textwidth]{strict_num_rev}
+	\caption{\textbf{Growth of reverse polymerizing organisms under competitive conditions.} The population of reverse polymerizing organisms present in each environment is plotted against simulation time. Each unit on the abscissa represents 50 simulation time-steps.}
+	\label{fig:strict_num_rev}
+\end{figure}
 
 % chapter experimental_results_of_polymerase_modeling (end)

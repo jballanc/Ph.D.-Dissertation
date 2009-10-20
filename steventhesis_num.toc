@@ -1,4 +1,5 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Design of the Polymerase Evolution Model}{9}
-\contentsline {chapter}{\numberline {3}Experimental Procedure and Results of Polymerase Modeling}{21}
+\contentsline {chapter}{\numberline {3}Experimental Procedure and Results of Polymerase Modeling}{22}
+\contentsline {chapter}{\numberline {4}Analysis and Discussion of Model Results}{35}
 \contentsline {chapter}{\numberline {A}Source Code}{1}
