@@ -1,24 +1,25 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2010.3.4)  14 MAR 2010 23:56
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 06:47
 entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **steventhesis_num.tex
 (./steventhesis_num.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
-abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
-h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
-greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
-tin, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, romanian, rus
-sian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish, ukenglis
-h, ukrainian, uppersorbian, welsh, loaded.
-
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
-
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -33,8 +34,7 @@ File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/fancyhdr/fancyh
-dr.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -45,57 +45,48 @@ dr.sty
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/graphics/graphi
-cx.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/graphics/keyval
-.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/graphics/graphi
-cs.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/graphics/trig.s
-ty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/pdftex-def/pdft
-ex.def
-File: pdftex.def 2008/07/16 v0.04k Graphics/color for pdfTeX
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/amsfonts/amssym
-b.sty
-Package: amssymb 2002/01/22 v2.2d
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/amsfonts/amsfon
-ts.sty
-Package: amsfonts 2001/10/25 v2.2f
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/setspace/setspa
-ce.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
 ) (./pgnumchapter_nums.sty)
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/listings/listin
-gs.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count89
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -109,19 +100,18 @@ gs.sty
 \lst@lineno=\count94
 \lst@maxwidth=\dimen108
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/listings/lstmis
-c.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/listings/listin
-gs.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
- (./titlepg.sty)
+
+(./titlepg.sty)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 61.
@@ -143,8 +133,7 @@ LaTeX Font Info:    ... okay on input line 126.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
 LaTeX Font Info:    ... okay on input line 126.
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/context/base/supp-pdf
-.tex
+(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -156,22 +145,70 @@ LaTeX Font Info:    ... okay on input line 126.
 \MPscratchDim=\dimen110
 \MPnumerator=\count101
 \everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \c@lstlisting=\count102
 LaTeX Font Info:    Try loading font information for U+msa on input line 132.
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/amsfonts/umsa.f
-d
-File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 132.
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/amsfonts/umsb.f
-d
-File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (3.64174pt too wide) in paragraph at lines 132--132
 []
+ []
+
+
+Overfull \hbox (3.64174pt too wide) in paragraph at lines 132--132
+[] 
  []
 
 
@@ -201,30 +238,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
 [1
 
-{/opt/local/Cellar/tex-live/20080816/share/texmf/fonts/map/pdftex/updmap/pdftex
-.map}]
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
 
 
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
-[2] [3] (./steventhesis_num.toc)
+ [2] [3] [4]
+(./steventhesis_num.toc)
 \tf@toc=\write3
 \openout3 = `steventhesis_num.toc'.
 
- [4
+ [5
 
 ] (./steventhesis_num.lot)
 \tf@lot=\write4
 \openout4 = `steventhesis_num.lot'.
 
- [5
+ [6
 
 ]
-(./steventhesis_num.lof [6
+(./steventhesis_num.lof [7
 
 ]
 Overfull \hbox (7.23766pt too wide) in paragraph at lines 10--10
@@ -232,7 +269,7 @@ Overfull \hbox (7.23766pt too wide) in paragraph at lines 10--10
 merase rates. 
  []
 
-[7]
+[8]
 Overfull \hbox (1.93527pt too wide) in paragraph at lines 16--16
  \OT1/cmr/m/n/12 light the four com-pe-ti-tion regimes ob-served: I. Sta-ble Lo
 w-Temperature 
@@ -242,7 +279,7 @@ w-Temperature
 \tf@lof=\write5
 \openout5 = `steventhesis_num.lof'.
 
- [8] [9]
+ [9] [10]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex
@@ -250,7 +287,7 @@ Chapter 1.
 [1
 
 
-] [2] [3] <reactions.png, id=44, 922.647pt x 440.6061pt>
+] [2] [3] <reactions.png, id=49, 922.647pt x 440.6061pt>
 File: reactions.png Graphic file (type png)
  <use reactions.png>
 
@@ -270,7 +307,7 @@ Chapter 2.
 
 
 ] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-<schematic.png, id=101, 940.51375pt x 584.1825pt>
+<schematic.png, id=105, 940.51375pt x 584.1825pt>
 File: schematic.png Graphic file (type png)
  <use schematic.png>) [20]
 [21 <./schematic.png (PNG copy)>]
@@ -282,24 +319,24 @@ Chapter 3.
 
 
 
-] <scale_length.png, id=112, 1295.0784pt x 780.0342pt>
+] <scale_length.png, id=116, 1295.0784pt x 780.0342pt>
 File: scale_length.png Graphic file (type png)
 
 <use scale_length.png> [23 <./scale_length.png (PNG copy)>]
-<scale_num.png, id=116, 1295.0784pt x 780.0342pt>
+<scale_num.png, id=120, 1295.0784pt x 780.0342pt>
 File: scale_num.png Graphic file (type png)
  <use scale_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24] <temp_incr_num.png, id=120, 1295.0784pt x 780.0342pt>
+[24] <temp_incr_num.png, id=124, 1295.0784pt x 780.0342pt>
 File: temp_incr_num.png Graphic file (type png)
 
 <use temp_incr_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<temp_incr_rate.png, id=121, 1295.0784pt x 780.0342pt>
+<temp_incr_rate.png, id=125, 1295.0784pt x 780.0342pt>
 File: temp_incr_rate.png Graphic file (type png)
 
 <use temp_incr_rate.png>
@@ -307,14 +344,14 @@ File: temp_incr_rate.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25 <./scale_num.png (PNG copy)>] [26]
-<cluster_growth_rate.png, id=128, 1295.0784pt x 780.0342pt>
+<cluster_growth_rate.png, id=132, 1295.0784pt x 780.0342pt>
 File: cluster_growth_rate.png Graphic file (type png)
 
 <use cluster_growth_rate.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cluster_growth_num.png, id=129, 1295.0784pt x 780.0342pt>
+<cluster_growth_num.png, id=133, 1295.0784pt x 780.0342pt>
 File: cluster_growth_num.png Graphic file (type png)
 
 <use cluster_growth_num.png>
@@ -322,19 +359,19 @@ File: cluster_growth_num.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27 <./temp_incr_num.png (PNG copy)>] [28 <./temp_incr_rate.png (PNG copy)>]
-[29] <strict_rate.png, id=140, 1295.0784pt x 780.0342pt>
+[29] <strict_rate.png, id=144, 1295.0784pt x 780.0342pt>
 File: strict_rate.png Graphic file (type png)
  <use strict_rate.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<strict_num.png, id=141, 1295.0784pt x 780.0342pt>
+<strict_num.png, id=145, 1295.0784pt x 780.0342pt>
 File: strict_num.png Graphic file (type png)
  <use strict_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<strict_num_rev.png, id=142, 1295.0784pt x 780.0342pt>
+<strict_num_rev.png, id=146, 1295.0784pt x 780.0342pt>
 File: strict_num_rev.png Graphic file (type png)
 
 <use strict_num_rev.png>
@@ -353,7 +390,7 @@ Chapter 4.
 
 
 ] [36] [37] [38] [39] [40] [41] [42]
-<competition_regimes.png, id=184, 1027.84pt x 770.88pt>
+<competition_regimes.png, id=189, 1027.84pt x 770.88pt>
 File: competition_regimes.png Graphic file (type png)
 
 <use competition_regimes.png> [43]) [44] [45 <./competition_regimes.png>]
@@ -362,15 +399,13 @@ File: competition_regimes.png Graphic file (type png)
 
 (./code_listing.tex
 Appendix A.
-
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/listings/lstlan
-g1.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/opt/local/Cellar/tex-live/20080816/share/texmf-dist/tex/latex/listings/lstlan
-g2.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2004/09/05 1.3 listings language file
-) (../../../Source/Evolver/lib/evolver/constants.rb)
+)
+(../../../Source/Evolver/lib/evolver/constants.rb)
 (../../../Source/Evolver/lib/evolver/environment.rb
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 15.
@@ -379,7 +414,7 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 
 
 ] [2])
-(../../../Source/Evolver/lib/evolver/organism.rb [3] [4]) [5]
+(../../../Source/Evolver/lib/evolver/organism.rb [3] [4] [5])
 (../../../Source/Evolver/lib/evolver/genome.rb [6] [7])
 (../../../Source/Evolver/lib/evolver/polymerase.rb [8] [9])
 (../../../Source/Evolver/bin/evolver [10] [11] [12] [13])) [14]
@@ -390,38 +425,33 @@ Missing character: There is no Ž in font cmr12!
  [15
 
 
-]) [16]
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-
- []
-
-[17] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux)
-(./experimental_results.aux) (./analysis.aux) (./code_listing.aux)) ) 
+]) [16] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux) (./ex
+perimental_results.aux) (./analysis.aux)
+(./code_listing.aux)) ) 
 Here is how much of TeX's memory you used:
- 3070 strings out of 493886
- 43728 string characters out of 1144785
- 142896 words of memory out of 3000000
- 6254 multiletter control sequences out of 10000+50000
- 9722 words of font info for 37 fonts, out of 3000000 for 5000
+ 3469 strings out of 493747
+ 49797 string characters out of 3143546
+ 152597 words of memory out of 3000000
+ 6641 multiletter control sequences out of 15000+200000
+ 9713 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 33i,11n,43p,1818b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
-</opt/loca
-l/Cellar/tex-live/20080816/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb><
-/opt/local/Cellar/tex-live/20080816/share/texmf-dist/fonts/type1/bluesky/cm/cmm
-i12.pfb></opt/local/Cellar/tex-live/20080816/share/texmf-dist/fonts/type1/blues
-ky/cm/cmmi6.pfb></opt/local/Cellar/tex-live/20080816/share/texmf-dist/fonts/typ
-e1/bluesky/cm/cmmi8.pfb></opt/local/Cellar/tex-live/20080816/share/texmf-dist/f
-onts/type1/bluesky/cm/cmr12.pfb></opt/local/Cellar/tex-live/20080816/share/texm
-f-dist/fonts/type1/bluesky/cm/cmr6.pfb></opt/local/Cellar/tex-live/20080816/sha
-re/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/Cellar/tex-live/20080
-816/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/Cellar/tex-l
-ive/20080816/share/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb></opt/local/Cell
-ar/tex-live/20080816/share/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb></opt/l
-ocal/Cellar/tex-live/20080816/share/texmf-dist/fonts/type1/bluesky/cm/cmtt8.pfb
->
-Output written on steventhesis_num.pdf (71 pages, 3611774 bytes).
+ 38i,11n,43p,1818b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.p
+fb>
+Output written on steventhesis_num.pdf (71 pages, 3643313 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
