@@ -1,4 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Bagshaw:1973p728}
+C~R Bagshaw and D~R Trentham.
+\newblock {The reversibility of adenosine triphosphate cleavage by myosin}.
+\newblock {\em The Biochemical journal}, 133(2):323--328, jun 1973.
+\newblock Reference for the ∆G of NTP hydrolysis.
+
+\bibitem{Cady:2009p718}
+Field Cady and Hong Qian.
+\newblock {Open-system thermodynamic analysis of DNA polymerase fidelity}.
+\newblock {\em Physical biology}, 6(3):36011, jan 2009.
+\newblock Reference for error rate as a function of shape.
 
 \bibitem{Castro:2009p953}
 Christian Castro, Eric~D Smidansky, Jamie~J Arnold, Kenneth~R Maksimchuk,
@@ -16,6 +28,13 @@ C~Darwin.
   preservation {\ldots}}.
 \newblock {\em books.google.com}, jan 1883.
 
+\bibitem{Ferenci:1999p703}
+T~Ferenci.
+\newblock {'Growth of bacterial cultures' 50 years on: towards an uncertainty
+  principle instead of constants in bacterial growth kinetics}.
+\newblock {\em Research in microbiology}, 150(7):431--438, sep 1999.
+\newblock Reference for bacterial culture growth.
+
 \bibitem{Griep:2006p719}
 M~Griep, S~Whitney, M~Nelson, and H~Viljoen.
 \newblock {DNA polymerase chain reaction: A model of error frequencies and
@@ -31,6 +50,14 @@ PA~Levene and ET~Stiller.
 Martin~A Nowak.
 \newblock {Evolutionary dynamics: exploring the equations of life‎}.
 \newblock page 363, jan 2006.
+
+\bibitem{Petruska:1988p721}
+J~Petruska, M~F Goodman, M~S Boosalis, L~C Sowers, C~Cheong, and I~Tinoco.
+\newblock {Comparison between DNA melting thermodynamics and DNA polymerase
+  fidelity}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 85(17):6252--6256, sep 1988.
+\newblock Reference for base-pair mismatch ∆∆G.
 
 \bibitem{Sigel:1983p720}
 H~Sigel and F~Hofstetter.

@@ -9,45 +9,45 @@ A level-1 auxiliary file: code_listing.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--empty journal in ANowak:2006p857
-You've used 9 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            570 strings with 5795 characters,
-and the built_in function-call counts, 3011 in all, are:
-= -- 299
-> -- 144
+            606 strings with 6763 characters,
+and the built_in function-call counts, 4464 in all, are:
+= -- 448
+> -- 210
 < -- 1
-+ -- 57
-- -- 48
-* -- 237
-:= -- 517
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 51
++ -- 83
+- -- 70
+* -- 361
+:= -- 764
+add.period$ -- 44
+call.type$ -- 13
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 104
-empty$ -- 219
-format.name$ -- 48
-if$ -- 603
+cite$ -- 14
+duplicate$ -- 148
+empty$ -- 327
+format.name$ -- 70
+if$ -- 894
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 9
-newline$ -- 49
-num.names$ -- 18
-pop$ -- 39
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 73
+num.names$ -- 26
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 61
 quote$ -- 0
-skip$ -- 76
+skip$ -- 105
 stack$ -- 0
-substring$ -- 198
-swap$ -- 15
+substring$ -- 314
+swap$ -- 19
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 52
 warning$ -- 1
-while$ -- 31
-width$ -- 10
-write$ -- 101
+while$ -- 46
+width$ -- 15
+write$ -- 153
 (There was 1 warning)

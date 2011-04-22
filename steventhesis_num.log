@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 09:40
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,11 +303,10 @@ Chapter 2.
 
 
 
-] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-<schematic.png, id=108, 940.51375pt x 584.1825pt>
+] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+<schematic.png, id=112, 940.51375pt x 584.1825pt>
 File: schematic.png Graphic file (type png)
- <use schematic.png>) [21]
-[22 <./schematic.png (PNG copy)>]
+ <use schematic.png>) [22 <./schematic.png (PNG copy)>]
 \openout2 = `experimental_results.aux'.
 
  (./experimental_results.tex
@@ -417,19 +416,29 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (../../../Source/Evolver/bin/evolver [10] [11] [12] [13])) [14]
 (./steventhesis_num.bbl
 Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no Ž in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no † in font cmr12!
  [15
 
 
-]) [16] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux) (./ex
-perimental_results.aux) (./analysis.aux)
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no Ž in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no † in font cmr12!
+) [16] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux) (./exp
+erimental_results.aux) (./analysis.aux)
 (./code_listing.aux)) ) 
 Here is how much of TeX's memory you used:
- 3470 strings out of 493747
- 49815 string characters out of 3143546
- 152604 words of memory out of 3000000
- 6642 multiletter control sequences out of 15000+200000
+ 3474 strings out of 493747
+ 49885 string characters out of 3143546
+ 152620 words of memory out of 3000000
+ 6646 multiletter control sequences out of 15000+200000
  9713 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,11n,43p,1818b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -445,7 +454,7 @@ y10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.p
 fb>
-Output written on steventhesis_num.pdf (72 pages, 3645713 bytes).
+Output written on steventhesis_num.pdf (72 pages, 3647533 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  194 compressed objects within 2 object streams
