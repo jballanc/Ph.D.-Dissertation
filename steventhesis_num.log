@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 06:47
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,110 +290,107 @@ Chapter 1.
 ] [2] [3] <reactions.png, id=49, 922.647pt x 440.6061pt>
 File: reactions.png Graphic file (type png)
  <use reactions.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5 <./reactions.png
+[4 <./reactions.png
 
 pdfTeX warning: pdflatex (file ./reactions.png): large interlaced PNG might cau
 se out of memory (use non-interlaced PNG to fix this)
->] [6] [7]) [8]
+>] [5] [6] [7] [8]) [9]
 \openout2 = `model_design.aux'.
 
  (./model_design.tex
 Chapter 2.
-[9
+[10
 
 
 
-] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-<schematic.png, id=105, 940.51375pt x 584.1825pt>
+] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+<schematic.png, id=108, 940.51375pt x 584.1825pt>
 File: schematic.png Graphic file (type png)
- <use schematic.png>) [20]
-[21 <./schematic.png (PNG copy)>]
+ <use schematic.png>) [21]
+[22 <./schematic.png (PNG copy)>]
 \openout2 = `experimental_results.aux'.
 
  (./experimental_results.tex
 Chapter 3.
-[22
+[23
 
 
 
-] <scale_length.png, id=116, 1295.0784pt x 780.0342pt>
+] <scale_length.png, id=119, 1295.0784pt x 780.0342pt>
 File: scale_length.png Graphic file (type png)
 
-<use scale_length.png> [23 <./scale_length.png (PNG copy)>]
-<scale_num.png, id=120, 1295.0784pt x 780.0342pt>
+<use scale_length.png> [24 <./scale_length.png (PNG copy)>]
+<scale_num.png, id=123, 1295.0784pt x 780.0342pt>
 File: scale_num.png Graphic file (type png)
  <use scale_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24] <temp_incr_num.png, id=124, 1295.0784pt x 780.0342pt>
+[25] <temp_incr_num.png, id=127, 1295.0784pt x 780.0342pt>
 File: temp_incr_num.png Graphic file (type png)
 
 <use temp_incr_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<temp_incr_rate.png, id=125, 1295.0784pt x 780.0342pt>
+<temp_incr_rate.png, id=128, 1295.0784pt x 780.0342pt>
 File: temp_incr_rate.png Graphic file (type png)
 
 <use temp_incr_rate.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <./scale_num.png (PNG copy)>] [26]
-<cluster_growth_rate.png, id=132, 1295.0784pt x 780.0342pt>
+[26 <./scale_num.png (PNG copy)>] [27]
+<cluster_growth_rate.png, id=136, 1295.0784pt x 780.0342pt>
 File: cluster_growth_rate.png Graphic file (type png)
 
 <use cluster_growth_rate.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cluster_growth_num.png, id=133, 1295.0784pt x 780.0342pt>
+<cluster_growth_num.png, id=137, 1295.0784pt x 780.0342pt>
 File: cluster_growth_num.png Graphic file (type png)
 
 <use cluster_growth_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./temp_incr_num.png (PNG copy)>] [28 <./temp_incr_rate.png (PNG copy)>]
-[29] <strict_rate.png, id=144, 1295.0784pt x 780.0342pt>
+[28 <./temp_incr_num.png (PNG copy)>] [29 <./temp_incr_rate.png (PNG copy)>]
+[30] <strict_rate.png, id=147, 1295.0784pt x 780.0342pt>
 File: strict_rate.png Graphic file (type png)
  <use strict_rate.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<strict_num.png, id=145, 1295.0784pt x 780.0342pt>
+<strict_num.png, id=148, 1295.0784pt x 780.0342pt>
 File: strict_num.png Graphic file (type png)
  <use strict_num.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<strict_num_rev.png, id=146, 1295.0784pt x 780.0342pt>
+<strict_num_rev.png, id=149, 1295.0784pt x 780.0342pt>
 File: strict_num_rev.png Graphic file (type png)
 
 <use strict_num_rev.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [30 <./cluster_growth_rate.png (PNG copy)>] [31 <./cluster_growth_num.png (PN
-G copy)>] [32 <./strict_rate.png (PNG copy)>] [33 <./strict_num.png (PNG copy)>
-] [34 <./strict_num_rev.png (PNG copy)>]
+) [31 <./cluster_growth_rate.png (PNG copy)>] [32 <./cluster_growth_num.png (PN
+G copy)>] [33 <./strict_rate.png (PNG copy)>] [34 <./strict_num.png (PNG copy)>
+] [35 <./strict_num_rev.png (PNG copy)>]
 \openout2 = `analysis.aux'.
 
  (./analysis.tex
 Chapter 4.
-[35
+[36
 
 
 
-] [36] [37] [38] [39] [40] [41] [42]
-<competition_regimes.png, id=189, 1027.84pt x 770.88pt>
+] [37] [38] [39] [40] [41] [42] [43]
+<competition_regimes.png, id=192, 1027.84pt x 770.88pt>
 File: competition_regimes.png Graphic file (type png)
 
-<use competition_regimes.png> [43]) [44] [45 <./competition_regimes.png>]
+<use competition_regimes.png> [44]) [45] [46 <./competition_regimes.png>]
 \openout2 = `code_listing.aux'.
 
 
@@ -429,10 +426,10 @@ Missing character: There is no Ž in font cmr12!
 perimental_results.aux) (./analysis.aux)
 (./code_listing.aux)) ) 
 Here is how much of TeX's memory you used:
- 3469 strings out of 493747
- 49797 string characters out of 3143546
- 152597 words of memory out of 3000000
- 6641 multiletter control sequences out of 15000+200000
+ 3470 strings out of 493747
+ 49815 string characters out of 3143546
+ 152604 words of memory out of 3000000
+ 6642 multiletter control sequences out of 15000+200000
  9713 words of font info for 37 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,11n,43p,1818b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -448,10 +445,10 @@ y10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.p
 fb>
-Output written on steventhesis_num.pdf (71 pages, 3643313 bytes).
+Output written on steventhesis_num.pdf (72 pages, 3645713 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
