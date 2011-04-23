@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 16:10
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -280,13 +280,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ]
 (./steventhesis_num.lof [7
 
-] [8] [9] [10] [11]
-Overfull \hbox (1.93527pt too wide) in paragraph at lines 16--16
- \OT1/cmr/m/n/12 light the four com-pe-ti-tion regimes ob-served: I. Sta-ble Lo
-w-Temperature 
- []
-
-)
+] [8] [9] [10] [11])
 \tf@lof=\write5
 \openout5 = `steventhesis_num.lof'.
 
@@ -375,67 +369,12 @@ Chapter 4.
 
 
 
-] [38]
-
-LaTeX Warning: Reference `fig:strict_num' on page 39 undefined on input line 13
-.
-
-[39] [40]
-
-LaTeX Warning: Reference `fig:temp_incr_num' on page 41 undefined on input line
- 24.
-
-
-LaTeX Warning: Reference `fig:temp_incr_rate' on page 41 undefined on input lin
-e 26.
-
-[41]
-
-LaTeX Warning: Reference `fig:cluster_growth_rate' on page 42 undefined on inpu
-t line 28.
-
-
-LaTeX Warning: Reference `fig:cluster_growth_num' on page 42 undefined on input
- line 30.
-
-[42] [43]
-
-LaTeX Warning: Reference `fig:strict_rate' on page 44 undefined on input line 3
-6.
-
-
-LaTeX Warning: Reference `fig:strict_num' on page 44 undefined on input line 36
-.
-
-
-LaTeX Warning: Reference `fig:strict_rate' on page 44 undefined on input line 3
-8.
-
-
-LaTeX Warning: Reference `fig:strict_num' on page 44 undefined on input line 38
-.
-
-
-LaTeX Warning: Reference `fig:cluster_growth_num' on page 44 undefined on input
- line 40.
-
-[44] <competition_regimes.png, id=216, 1027.84pt x 770.88pt>
-File: competition_regimes.png Graphic file (type png)
-
-<use competition_regimes.png>
-
-LaTeX Warning: Reference `fig:strict_num_rev' on page 45 undefined on input lin
-e 45.
-
-
-LaTeX Warning: Reference `fig:strict_num_rev' on page 45 undefined on input lin
-e 45.
-
-
-LaTeX Warning: Reference `fig:strict_num_rev' on page 45 undefined on input lin
-e 49.
-
-[45] [46 <./competition_regimes.png>]) [47]
+] [38] [39] [40] [41]
+<mutation_rate.png, id=206, 939.07639pt x 565.72955pt>
+File: mutation_rate.png Graphic file (type png)
+ <use mutation_rate.png>
+[42] [43 <./mutation_rate.png (PNG copy)>] [44] [45] [46] [47] [48] [49]
+[50]) [51]
 \openout2 = `code_listing.aux'.
 
  (./code_listing.tex
@@ -478,40 +417,36 @@ Missing character: There is no ˆ in font cmr12!
 Missing character: There is no † in font cmr12!
 ) [16] (./steventhesis_num.aux (./introduction.aux) (./model_design.aux) (./exp
 erimental_results.aux) (./analysis.aux)
-(./code_listing.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./code_listing.aux)) ) 
 Here is how much of TeX's memory you used:
- 4426 strings out of 493747
- 67076 string characters out of 3143546
- 163305 words of memory out of 3000000
- 7589 multiletter control sequences out of 15000+200000
+ 4420 strings out of 493747
+ 66911 string characters out of 3143546
+ 163274 words of memory out of 3000000
+ 7583 multiletter control sequences out of 15000+200000
  11720 words of font info for 46 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,11n,43p,1818b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2010
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on steventhesis_num.pdf (75 pages, 8929731 bytes).
+ 38i,11n,43p,1726b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on steventhesis_num.pdf (79 pages, 9394652 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 349 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
