@@ -19,7 +19,7 @@
   \leftline{\hbox to 2.5in{}\hrulefill}
   \endgraf
   \vspace*{-18pt}
-  \leftline{\hbox to 2.53in{}{#1}}}
+  \leftline{\hbox to 2.5in{}{#1}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
@@ -48,28 +48,28 @@
     \MakeUppercase {\thesisdegree} \\
     \vspace{20mm}
      \end{spacing}
-%       \strut \vfill
+       \strut \vfill
   \mbox{ }  \hfill \begin{minipage}{80mm}
                        \begin{spacing}{1}
                    
 
-\noindent \rule{3.2in}{0.1mm}
+\noindent \rule{3.1in}{0.1mm}
 \thesisname, Candidate\\[3mm]
 \underline{ADVISORY COMMITTEE}\\[3mm]
-\noindent \rule{3.2in}{0.1mm}\\[-1.3mm]
+\noindent \rule{3.1in}{0.1mm}\\[-1.3mm]
 % for master thesis, change Chairman to Advisor
 {\thesischairadvisor}, Chairman  \hfill{Date}\\[2mm]
-{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\noindent \rule{3.1in}{0.1mm}}\\[-1.3mm]
 % for master thesis, add Reader after committeenameA
 %
 {\committeenameA}        \hfill{Date}\\[2mm]
 %
 %  for master thesis, remove / comment out the following six lines
-{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\noindent \rule{3.1in}{0.1mm}}\\[-1.3mm]
 {\committeenameB}  \hfill{Date}\\[2mm]
-{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\noindent \rule{3.1in}{0.1mm}}\\[-1.3mm]
 {\committeenameC}  \hfill{Date}\\[2mm]
-{\noindent \rule{3.2in}{0.1mm}}\\[-1.3mm]
+{\noindent \rule{3.1in}{0.1mm}}\\[-1.3mm]
 {\committeenameD}  \hfill{Date}\\[2mm]
                  	\end{spacing}
 				   \end{minipage}
@@ -94,14 +94,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\thesiscopyrightpage}{
-     \thispagestyle{empty}      %no page number on the copyright page
-    \strut \vfill
-    \vspace*{7.2in}
-   \begin{center}
-        \textcopyright  Copyright \thesisyear\  \thesisname 
+    \thispagestyle{empty}      %no page number on the copyright page
+		\strut \vfill
+		\begin{spacing}{1}
+   	\begin{center}
+        \textcopyright\ \thesisyear, \thesisname. All rights reserved.
     \end{center}
-    \vfill \strut
-    \newpage}
+		\end{spacing}
+		\newpage
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
@@ -140,9 +141,9 @@ Degree: \thesisdegree \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\thesisdedicationpage}{
-    \strut \vspace{2in}
-   \begin{center}
-       This thesis is dedicated to my loving and supportive wife.
+	 \begin{center}
+		\textbf{Dedication} \\[3.5in]
+       This thesis is dedicated to my loving and supportive wife Ceren
     \end{center}
     \vfill \strut
     \newpage}
@@ -159,7 +160,9 @@ Degree: \thesisdegree \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\thesisacknowledgements}{
 
-\noindent \textbf{Acknowledgements} \\[6mm]
+\begin{center}
+	\textbf{Acknowledgements} \\[6mm]
+\end{center}
 I would like to acknowledge Marc Mansfield for the years of guidance, inspiration, and instruction that he so graciously provided during both my undergraduate and graduate education. I would also like to acknowledge Francis Jones for making this research possible, for the encouragement that he provided me as an undergraduate and the opportunity he made available to me as a graduate. I would also like to thank the members of my committee, Philip Leopold, A. K. Ganguly, Knut Stamnes, and Nicholas Murgolo, for their input and invaluable insight. Thanks also go out to the faculty and staff of the Department of Chemistry, Chemical Biology, and Biomedical Engineering for all the help they have provided through the years, and most especially to Mary Newell without whom I would not have made it past the first day of graduate school. Finally, I must humbly admit that the thesis presented here would not exist if it were not for the constant support and encouragement of my beautiful wife Ceren \"Ornek-Ballanco.
     \vfill \strut
     \newpage}
@@ -183,7 +186,7 @@ I would like to acknowledge Marc Mansfield for the years of guidance, inspiratio
 
 \textbf{Education}  \> Stevens Institute of Technology, Hoboken, NJ \\
 \> Doctoral Candidate in Chemical Biology \\
-\>  expected date of graduation, May 2010 \\[3mm]
+\>  expected date of graduation, May 2011 \\[3mm]
 
 \> Stevens Institute of Technology, Hoboken, NJ \\
 \> Masters of Science in Chemistry \\

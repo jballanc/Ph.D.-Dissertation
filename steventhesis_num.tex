@@ -53,6 +53,7 @@
 \usepackage{listings}
 \usepackage{titlepg}
 \usepackage[footnotesize]{caption}
+
 %              this is for the list of symbols page, if desired
 \def\listofsymbols{\input{symbols} \clearpage}
 \def\addsymbol #1: #2#3{$#1$\> \parbox{5in}{#2 \dotfill  \pageref{#3}}\\}
@@ -136,11 +137,13 @@
 
 \thesisabstract
 
-% \thesisdedicationpage
+\thesisdedicationpage
 
-% \thesisacknowledgements
+\thesisacknowledgements
 
 \tableofcontents
+
+\setcounter{page}{8}
 
 \listoftables
 
@@ -181,7 +184,7 @@
 \bibliography{references}{}
 \bibliographystyle{plain}
 
-%\thesisvita
+\thesisvita
 
 \end{document}
  
